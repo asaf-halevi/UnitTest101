@@ -14,4 +14,13 @@ public class DividerTest {
 
         assertEquals(2, actual);
     }
+
+//    @Test
+//    public void testDivideByZero() {
+//        ArithmeticException thrown = Assertions.assertThrows(ArithmeticException.class, () -> {
+//            divider.divide(4, 0);
+//        });
+//
+//        Assertions.assertEquals("/ by zero", thrown.getMessage());
+//    }
 }

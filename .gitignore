@@ -1,3 +1,16 @@
-/target/
-/target/*.*
+#Maven stuff
+target/
+
+# IDEA stuff
+.idea/
+*.iml
+
+# Eclipse stuff
+.settings/
+.project
+.classpath
+
+# Other stuff
+logs/
+results/
 *.class

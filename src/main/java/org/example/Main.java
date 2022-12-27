@@ -9,12 +9,12 @@ public class Main {
 
     public static void main(String[] args) {
         Main main = new Main();
-        main.useDivider();
+        main.foolCoverage();
     }
 
-    private void useDivider() {
-        Divider divider = new Divider();
-        int result = divider.divide(4, 2); // try divide by 0
-        logger.info("Result of divider is {}", result);
+    private void foolCoverage() {
+        CoverageFooled coverageFooled = new CoverageFooled();
+        String result = coverageFooled.getNameWithPrefix("Jack", 'M'); // try divide by 0
+        logger.info("{}", result);
     }
 }

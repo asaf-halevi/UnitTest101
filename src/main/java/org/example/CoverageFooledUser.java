@@ -14,7 +14,7 @@ public class CoverageFooledUser {
 
     private void foolCoverage() {
         CoverageFooled coverageFooled = new CoverageFooled();
-        String result = coverageFooled.getNameWithPrefix("Jack", 'M');
+        String result = coverageFooled.getNameWithPrefix("Jack", 'M');//try empty string for name
         logger.info("{}", result);
     }
 }

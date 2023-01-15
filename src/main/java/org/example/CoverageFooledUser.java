@@ -14,7 +14,7 @@ public class CoverageFooledUser {
 
     private void foolCoverage() {
         CoverageFooled coverageFooled = new CoverageFooled();
-        String result = coverageFooled.getNameWithPrefix("Jack", 'M');//try empty string for name
+        String result = coverageFooled.getNameWithPrefix("Jack", 'M');// invalid gender (capital letter)
         logger.info("{}", result);
     }
 }

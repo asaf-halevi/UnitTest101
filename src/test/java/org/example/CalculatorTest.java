@@ -11,7 +11,9 @@ class CalculatorTest {
     @DisplayName("Should return the sum of a and b plus 1")
     void wrongAddShouldReturnTheSumOfAAndBPlus1() {
         Calculator calculator = new Calculator();
+
         int result = calculator.wrongAdd(1, 2);
+
         assertEquals(4, result);
     }
 
@@ -19,7 +21,9 @@ class CalculatorTest {
     @DisplayName("Should return the sum of a and b")
     void aWhenReturnSumOfAAndB() {
         Calculator calculator = new Calculator();
+
         int result = calculator.add(1, 2);
+
         assertEquals(3, result);
     }
 }

@@ -73,5 +73,28 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.pitest</groupId>
+                <artifactId>pitest-maven</artifactId>
+                <version>1.11.0</version>
+                <configuration>
+                    <targetClasses>
+                        <param>org.example*</param>
+                    </targetClasses>
+                    <targetTests>
+                        <param>org.example*</param>
+                    </targetTests>
+                    <outputFormats>
+                        <outputFormat>XML</outputFormat>
+                        <outputFormat>HTML</outputFormat>
+                    </outputFormats>
+                    <exportLineCoverage>true</exportLineCoverage>
+                    <timestampedReports>true</timestampedReports>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

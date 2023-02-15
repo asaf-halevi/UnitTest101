@@ -97,6 +97,10 @@
                     </outputFormats>
                     <exportLineCoverage>true</exportLineCoverage>
                     <timestampedReports>false</timestampedReports>
+                    <coverageThreshold>0</coverageThreshold>
+                    <withHistory>true</withHistory>
+                    <!--                    <historyInputFile>target/pit-reports/pit-history.bin</historyInputFile>-->
+                    <!--                    <historyOutputFile>target/pit-reports/pit-history.bin</historyOutputFile>-->
                 </configuration>
             </plugin>
         </plugins>

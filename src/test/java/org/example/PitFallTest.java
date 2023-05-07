@@ -15,14 +15,14 @@ class PitFallTest {
         assertEquals(1, actual);
     }
 
-//    @Test
-//    @Ignore
-//    void divideTestDivideByZero() {
-//        ArithmeticException thrown = Assertions.assertThrows
-//                                                       (ArithmeticException.class, () -> {
-//                                                           pitFall.divide(4, 0);
-//                                                       });
-//
-//        Assertions.assertEquals("/ by zero", thrown.getMessage());
-//    }
+    //    @Test
+    //    @Ignore
+    //    void divideTestDivideByZero() {
+    //        ArithmeticException thrown = Assertions.assertThrows
+    //                                                       (ArithmeticException.class, () -> {
+    //                                                           pitFall.divide(4, 0);
+    //                                                       });
+    //
+    //        Assertions.assertEquals("/ by zero", thrown.getMessage());
+    //    }
 }
